@@ -1,0 +1,218 @@
+{
+  "repository": "https://github.com/BH1SCW/MorseRunner",
+  "commit": "f5e96d3a08b1d60890975b345acdcf32aac37883",
+  "declared_version": "1.71",
+  "retrieved_on": "2026-10-28",
+  "files": [
+    {
+      "path": "ARRL.LIST",
+      "git_blob_sha": "f755496c644b59ca1140053d32af1ac204e607af",
+      "upstream_size_bytes": 12497
+    },
+    {
+      "path": "ARRL.pas",
+      "git_blob_sha": "73b255d6e558223f3a5151f328f240398dc1c025",
+      "upstream_size_bytes": 2651
+    },
+    {
+      "path": "CallLst.pas",
+      "git_blob_sha": "176338a77411a57c756a04a60549be12b34e3abd",
+      "upstream_size_bytes": 2434
+    },
+    {
+      "path": "Contest.pas",
+      "git_blob_sha": "c3888efc94efb55ec9c8fbacfcc039987c14c707",
+      "upstream_size_bytes": 7558
+    },
+    {
+      "path": "DxOper.pas",
+      "git_blob_sha": "73e8e9b153814bc8576e5d2d13530e83a6a1e65f",
+      "upstream_size_bytes": 7654
+    },
+    {
+      "path": "DxStn.pas",
+      "git_blob_sha": "32b63b5e32f49d5363b7a3542f6504999af57ee3",
+      "upstream_size_bytes": 3826
+    },
+    {
+      "path": "HstResults.txt",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "upstream_size_bytes": 0
+    },
+    {
+      "path": "Ini.pas",
+      "git_blob_sha": "e4c3ce99dca6b9264f5385043d08f63eb30e53d3",
+      "upstream_size_bytes": 4798
+    },
+    {
+      "path": "Log.pas",
+      "git_blob_sha": "e2d26ddf6046a31eefee036444b10c5999907cbb",
+      "upstream_size_bytes": 12532
+    },
+    {
+      "path": "Main.dfm",
+      "git_blob_sha": "24c643dd7edc235ce1bab38e357573b3f44e831f",
+      "upstream_size_bytes": 62225
+    },
+    {
+      "path": "Main.pas",
+      "git_blob_sha": "1752c95f51ab82d3250fd12c45ed4cf4f57a43d0",
+      "upstream_size_bytes": 31646
+    },
+    {
+      "path": "MorseRunner.dpr",
+      "git_blob_sha": "e20b06d577a453c5ebfc9072d6d677e08ef44672",
+      "upstream_size_bytes": 1113
+    },
+    {
+      "path": "MorseRunner.dproj",
+      "git_blob_sha": "d2fbf6378af601e97536b839cd87a2e843cf0576",
+      "upstream_size_bytes": 8397
+    },
+    {
+      "path": "MorseRunner.ini",
+      "git_blob_sha": "2ae2a5dcaaf77578d56494b25a8169394b401537",
+      "upstream_size_bytes": 363
+    },
+    {
+      "path": "MyStn.pas",
+      "git_blob_sha": "dca04603d7e7dfcf32c44e77ac3be4fc13ef9675",
+      "upstream_size_bytes": 4047
+    },
+    {
+      "path": "PerlRegEx/ARRL.LIST",
+      "git_blob_sha": "165838c914b310ad6cd0fa5f70d7a26f1e2d3946",
+      "upstream_size_bytes": 11103
+    },
+    {
+      "path": "PerlRegEx/PerlRegEx.pas",
+      "git_blob_sha": "324c4902762c36683857ecda0f89a7679e1126e3",
+      "upstream_size_bytes": 32064
+    },
+    {
+      "path": "PerlRegEx/README.txt",
+      "git_blob_sha": "3fa6b40235fea071577082cb649c9a2c64d1ec33",
+      "upstream_size_bytes": 1406
+    },
+    {
+      "path": "PerlRegEx/pcre.pas",
+      "git_blob_sha": "50ee33ed245a9a03828b3d2d47463dec9ba2d3cf",
+      "upstream_size_bytes": 44502
+    },
+    {
+      "path": "QrmStn.pas",
+      "git_blob_sha": "a0380c07e2662bca6ed818a516c67d45bde73b85",
+      "upstream_size_bytes": 1369
+    },
+    {
+      "path": "QrnStn.pas",
+      "git_blob_sha": "92e82dc59808f8f6ac49cbc7c2ab856f2f92c0b8",
+      "upstream_size_bytes": 1097
+    },
+    {
+      "path": "Qsb.pas",
+      "git_blob_sha": "939efd935ed7f065f3326555f8fd0a4a78ad5036",
+      "upstream_size_bytes": 1826
+    },
+    {
+      "path": "Readme.txt",
+      "git_blob_sha": "5a820e4bb07e3e2531185a7ee29318de5f196eb8",
+      "upstream_size_bytes": 9050
+    },
+    {
+      "path": "RndFunc.pas",
+      "git_blob_sha": "2acfd5b4d3ba536c098e0bf25db054f93185e56d",
+      "upstream_size_bytes": 2969
+    },
+    {
+      "path": "ScoreDlg.dfm",
+      "git_blob_sha": "e4f4c07d58544d2800f80f929d963b38ad557e46",
+      "upstream_size_bytes": 2502
+    },
+    {
+      "path": "ScoreDlg.pas",
+      "git_blob_sha": "951e01c2ae08596b2f1d4de254ef549350d802f6",
+      "upstream_size_bytes": 1323
+    },
+    {
+      "path": "Station.pas",
+      "git_blob_sha": "4c6b2ed70a6ed94b07cf1cdde50a5a1f944b347e",
+      "upstream_size_bytes": 6128
+    },
+    {
+      "path": "StnColl.pas",
+      "git_blob_sha": "b49625b95cf606272c7f95de07eeb2b738eb0fc3",
+      "upstream_size_bytes": 1394
+    },
+    {
+      "path": "VCL/BaseComp.pas",
+      "git_blob_sha": "aff1078974ed5b00e5aab86b82094a4123e37acf",
+      "upstream_size_bytes": 2441
+    },
+    {
+      "path": "VCL/Crc32.pas",
+      "git_blob_sha": "f240c4632845e361e8e70775a43d34c94341787d",
+      "upstream_size_bytes": 3674
+    },
+    {
+      "path": "VCL/Mixers.pas",
+      "git_blob_sha": "e9d26a6316ddd8a3667eecb1f63b059bf69efca4",
+      "upstream_size_bytes": 8348
+    },
+    {
+      "path": "VCL/MorseKey.pas",
+      "git_blob_sha": "e3c8680b1387c3909b7b16f9d0ff1082baa651e3",
+      "upstream_size_bytes": 4402
+    },
+    {
+      "path": "VCL/MorseTbl.pas",
+      "git_blob_sha": "6e51090d4932ad67938b9794224ac5d51d3d1d77",
+      "upstream_size_bytes": 1427
+    },
+    {
+      "path": "VCL/MovAvg.pas",
+      "git_blob_sha": "23593aa9021ba046371d8f46e77601219dfba729",
+      "upstream_size_bytes": 6150
+    },
+    {
+      "path": "VCL/PermHint.pas",
+      "git_blob_sha": "e867a5e009c9ef66df2bbf46b6a7dea26b9d1425",
+      "upstream_size_bytes": 3617
+    },
+    {
+      "path": "VCL/QuickAvg.pas",
+      "git_blob_sha": "5a8947898c92a772b01ec0aec9f68cf73ec781df",
+      "upstream_size_bytes": 3496
+    },
+    {
+      "path": "VCL/SndCustm.pas",
+      "git_blob_sha": "cea16bcde1cef15b01b8ac6d3b78c9540dea9e3d",
+      "upstream_size_bytes": 6298
+    },
+    {
+      "path": "VCL/SndOut.pas",
+      "git_blob_sha": "cd41429b3037141573cee7272cf71a0c7a6a6f3a",
+      "upstream_size_bytes": 4776
+    },
+    {
+      "path": "VCL/SndTypes.pas",
+      "git_blob_sha": "2732c308a273211834fd57144b0ea04fdb25794a",
+      "upstream_size_bytes": 1445
+    },
+    {
+      "path": "VCL/VolmSldr.pas",
+      "git_blob_sha": "141b333015ba44962721004b1a2f06ffd3628283",
+      "upstream_size_bytes": 5828
+    },
+    {
+      "path": "VCL/VolumCtl.pas",
+      "git_blob_sha": "a94c9758a05dc8cd0be15677c4c7fc354d45881f",
+      "upstream_size_bytes": 9209
+    },
+    {
+      "path": "VCL/WavFile.pas",
+      "git_blob_sha": "e8cc02979b71c5986a51e382de5e5f94bbd3b7e9",
+      "upstream_size_bytes": 17569
+    }
+  ]
+}

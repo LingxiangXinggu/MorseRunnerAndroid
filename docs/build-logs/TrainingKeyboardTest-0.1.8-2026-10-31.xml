@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.morserunner.tablet.TrainingKeyboardTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-31T08:20:02" hostname="8d2fb619c8a5" time="2.883">
+  <properties/>
+  <testcase name="hideReopenBackAndPhysicalKeyboardKeepTheChosenField" classname="org.morserunner.tablet.TrainingKeyboardTest" time="0.322"/>
+  <testcase name="switchingModesAndCancellingPreservePreferences" classname="org.morserunner.tablet.TrainingKeyboardTest" time="0.916"/>
+  <testcase name="insertionSelectionDeletionAndNumericFieldsUseExistingFilters" classname="org.morserunner.tablet.TrainingKeyboardTest" time="0.28"/>
+  <testcase name="firstRunChoicePersistsAndSettingsContinueToUseSystemKeyboard" classname="org.morserunner.tablet.TrainingKeyboardTest" time="0.676"/>
+  <testcase name="embeddedKeyboardFitsPhoneTabletAndShortWindows" classname="org.morserunner.tablet.TrainingKeyboardTest" time="0.689"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+]]></system-err>
+</testsuite>

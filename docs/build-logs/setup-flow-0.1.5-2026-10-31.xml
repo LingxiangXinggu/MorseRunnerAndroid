@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.morserunner.tablet.SetupFlowTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-31T07:34:30" hostname="8d2fb619c8a5" time="14.179">
+  <properties/>
+  <testcase name="changedLogFollowsBottomAfterLayoutWithoutStealingInputFocus" classname="org.morserunner.tablet.SetupFlowTest" time="6.863"/>
+  <testcase name="trainingCallAndSettingsCallUseTextWhileRstAndSerialUseNumbers" classname="org.morserunner.tablet.SetupFlowTest" time="4.354"/>
+  <testcase name="ordinarySettingsCanCancelWithoutSaving" classname="org.morserunner.tablet.SetupFlowTest" time="0.435"/>
+  <testcase name="renderFirstRunGuide" classname="org.morserunner.tablet.SetupFlowTest" time="0.631"/>
+  <testcase name="upgradePrefillsPreviousSettingsWithoutMarkingSetupComplete" classname="org.morserunner.tablet.SetupFlowTest" time="0.319"/>
+  <testcase name="renderTabletAndCompactLayouts" classname="org.morserunner.tablet.SetupFlowTest" time="0.714"/>
+  <testcase name="firstLaunchRequiresValidSettingsThenPersistsIndependentSpeeds" classname="org.morserunner.tablet.SetupFlowTest" time="0.493"/>
+  <testcase name="firstRunCallRequestsEnglishTextKeyboardAndSpeedsRemainNumeric" classname="org.morserunner.tablet.SetupFlowTest" time="0.369"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+]]></system-err>
+</testsuite>

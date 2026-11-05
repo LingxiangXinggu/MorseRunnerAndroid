@@ -1,0 +1,42 @@
+plugins { id 'com.android.application' }
+def releaseKeystore = System.getenv('MR_KEYSTORE')
+if (releaseKeystore && ['MR_STORE_PASSWORD', 'MR_KEY_ALIAS', 'MR_KEY_PASSWORD'].any { !System.getenv(it) }) {
+    throw new GradleException('Release signing requires MR_KEYSTORE, MR_STORE_PASSWORD, MR_KEY_ALIAS and MR_KEY_PASSWORD.')
+}
+android {
+    namespace 'org.morserunner.tablet'
+    compileSdk 35
+    ndkVersion '28.0.13004108'
+    defaultConfig {
+        applicationId 'com.asterdale.morserunner'
+        minSdk 26
+        targetSdk 35
+        versionCode 10
+        versionName '0.1.9-port171'
+        ndk { abiFilters 'arm64-v8a' }
+        externalNativeBuild { cmake { cppFlags '-std=c++17 -Wall -Wextra' } }
+    }
+    externalNativeBuild { cmake { path '../CMakeLists.txt'; version '3.22.1' } }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+    testOptions { unitTests.includeAndroidResources = true }
+    signingConfigs {
+        if (releaseKeystore) {
+            release {
+                storeFile file(releaseKeystore)
+                storePassword System.getenv('MR_STORE_PASSWORD')
+                keyAlias System.getenv('MR_KEY_ALIAS')
+                keyPassword System.getenv('MR_KEY_PASSWORD')
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            if (releaseKeystore) signingConfig signingConfigs.release
+        }
+    }
+}
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.robolectric:robolectric:4.14.1'
+}

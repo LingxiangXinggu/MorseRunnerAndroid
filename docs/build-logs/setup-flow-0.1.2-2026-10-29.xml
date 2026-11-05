@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.morserunner.tablet.SetupFlowTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-29T12:20:30" hostname="0985ddbd5e41" time="20.979">
+  <properties/>
+  <testcase name="ordinarySettingsCanCancelWithoutSaving" classname="org.morserunner.tablet.SetupFlowTest" time="13.295"/>
+  <testcase name="renderFirstRunGuide" classname="org.morserunner.tablet.SetupFlowTest" time="5.721"/>
+  <testcase name="upgradePrefillsPreviousSettingsWithoutMarkingSetupComplete" classname="org.morserunner.tablet.SetupFlowTest" time="0.483"/>
+  <testcase name="renderTabletAndCompactLayouts" classname="org.morserunner.tablet.SetupFlowTest" time="0.8"/>
+  <testcase name="firstLaunchRequiresValidSettingsThenPersistsIndependentSpeeds" classname="org.morserunner.tablet.SetupFlowTest" time="0.68"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+]]></system-err>
+</testsuite>

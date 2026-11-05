@@ -1,0 +1,3 @@
+PASS: actual host JNI ten-option configuration, audio rendering, TX tuning, legacy eight-option support and rejected invalid ranges
+PASS: setup call validation, independent speeds, fixed speed, mode/library bounds and JNI option mapping
+PASS: Java callsign/country lookup matches 1.71 extraction and ARRL.LIST

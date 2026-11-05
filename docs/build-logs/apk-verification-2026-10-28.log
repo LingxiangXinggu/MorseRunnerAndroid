@@ -1,0 +1,56 @@
+$ /workspace/toolchains/android-sdk/build-tools/35.0.0/apksigner verify --verbose /workspace/MorseRunnerAndroid/app/build/outputs/apk/debug/app-debug.apk
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+
+$ /workspace/toolchains/android-sdk/build-tools/35.0.0/zipalign -c -P 16 -v 4 /workspace/MorseRunnerAndroid/app/build/outputs/apk/debug/app-debug.apk
+Verifying alignment of /workspace/MorseRunnerAndroid/app/build/outputs/apk/debug/app-debug.apk (4)...
+      87 META-INF/com/android/build/gradle/app-metadata.properties (OK - compressed)
+     180 classes.dex (OK - compressed)
+     599 classes2.dex (OK - compressed)
+   32768 lib/arm64-v8a/libmorserunner.so (OK)
+ 1509038 assets/ARRL.LIST (OK - compressed)
+ 1516088 assets/calls/original.scp (OK - compressed)
+ 1715594 assets/calls/wapc.scp (OK - compressed)
+ 1717805 assets/calls/wpx.scp (OK - compressed)
+ 1886278 assets/wl_cty.dat (OK - compressed)
+ 1911267 AndroidManifest.xml (OK - compressed)
+ 1912264 resources.arsc (OK)
+Verification succesful
+
+$ /workspace/toolchains/android-sdk/build-tools/35.0.0/aapt dump badging /workspace/MorseRunnerAndroid/app/build/outputs/apk/debug/app-debug.apk
+package: name='org.morserunner.tablet' versionCode='1' versionName='0.1.0-port171' platformBuildVersionName='15' platformBuildVersionCode='35' compileSdkVersion='35' compileSdkVersionCodename='15'
+sdkVersion:'26'
+targetSdkVersion:'35'
+application: label='' icon=''
+application-debuggable
+launchable-activity: name='org.morserunner.tablet.MainActivity'  label='' icon=''
+feature-group: label=''
+  uses-feature-not-required: name='android.hardware.touchscreen'
+main
+supports-screens: 'small' 'normal' 'large' 'xlarge'
+supports-any-density: 'true'
+locales:
+densities:
+native-code: 'arm64-v8a'
+
+PASS: APK asset byte comparison: assets/ARRL.LIST
+PASS: APK asset byte comparison: assets/calls/original.scp
+PASS: APK asset byte comparison: assets/calls/wapc.scp
+PASS: APK asset byte comparison: assets/calls/wpx.scp
+PASS: APK asset byte comparison: assets/wl_cty.dat
+PASS: ELF PT_LOAD offset=0x0 vaddr=0x0 align=0x4000
+PASS: ELF PT_LOAD offset=0x15cff0 vaddr=0x160ff0 align=0x4000
+PASS: ELF PT_LOAD offset=0x167af0 vaddr=0x16faf0 align=0x4000
+PASS: JNI export Java_org_morserunner_tablet_NativeEngine_create
+PASS: JNI export Java_org_morserunner_tablet_NativeEngine_destroy
+PASS: JNI export Java_org_morserunner_tablet_NativeEngine_render
+PASS: JNI export Java_org_morserunner_tablet_NativeEngine_action
+PASS: JNI export Java_org_morserunner_tablet_NativeEngine_snapshot
+PASS: JNI export Java_org_morserunner_tablet_NativeEngine_csv
+APK SHA-256: 3279baf9de134ee52a80dd64043e3d45d61246b0fc5003c31e4c35ca03addb54

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.morserunner.tablet.SetupFlowTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-31T08:06:09" hostname="8d2fb619c8a5" time="13.645">
+  <properties/>
+  <testcase name="changedLogFollowsBottomAfterLayoutWithoutStealingInputFocus" classname="org.morserunner.tablet.SetupFlowTest" time="5.93"/>
+  <testcase name="trainingCallAndSettingsCallUseTextWhileRstAndSerialUseNumbers" classname="org.morserunner.tablet.SetupFlowTest" time="4.264"/>
+  <testcase name="ordinarySettingsCanCancelWithoutSaving" classname="org.morserunner.tablet.SetupFlowTest" time="0.434"/>
+  <testcase name="renderFirstRunGuide" classname="org.morserunner.tablet.SetupFlowTest" time="0.62"/>
+  <testcase name="shortcutsWrapOnNarrowWindowsAndReturnToOneRowOnWideWindows" classname="org.morserunner.tablet.SetupFlowTest" time="0.381"/>
+  <testcase name="upgradePrefillsPreviousSettingsWithoutMarkingSetupComplete" classname="org.morserunner.tablet.SetupFlowTest" time="0.404"/>
+  <testcase name="renderTabletAndCompactLayouts" classname="org.morserunner.tablet.SetupFlowTest" time="0.773"/>
+  <testcase name="firstLaunchRequiresValidSettingsThenPersistsIndependentSpeeds" classname="org.morserunner.tablet.SetupFlowTest" time="0.512"/>
+  <testcase name="firstRunCallRequestsEnglishTextKeyboardAndSpeedsRemainNumeric" classname="org.morserunner.tablet.SetupFlowTest" time="0.326"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+]]></system-err>
+</testsuite>
