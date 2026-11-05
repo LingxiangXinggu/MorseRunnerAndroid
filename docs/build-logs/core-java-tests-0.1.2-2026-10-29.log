@@ -1,7 +1,0 @@
-PASS: independent TX/remote speeds, all four modes, fixed and random ranges, QRM, HST timing, emitted envelopes, invalid ranges
-PASS: keyer 5..120 WPM, SCP, matching, prefixes, scoring, late verification, all-effects 60s session, HST, finite bounded audio, audio-clock ESM QSO
-PASS: wpx.scp 50,263 calls; SHA-256 unchanged
-PASS: wapc.scp 585 calls; SHA-256 unchanged
-PASS: original.scp 59,942 calls; SHA-256 unchanged
-PASS: setup call validation, independent speeds, fixed speed, mode/library bounds and JNI option mapping
-PASS: Java callsign/country lookup matches 1.71 extraction and ARRL.LIST

@@ -3,18 +3,18 @@
     "file": "wpx.scp",
     "sha256": "c50fddd8183077be2b1a8f1ad971bd77b41d28d91f0912c303c1e82b7a686120",
     "records": 50263,
-    "source": "User attachment MorseRunner.rar"
+    "source": "MorseRunner.rar"
   },
   {
     "file": "wapc.scp",
     "sha256": "930a5a4ade0a729b5ed5b69be8af9163f671f3d44c86965e966ddda198b9fbec",
     "records": 585,
-    "source": "User attachment MorseRunner.rar"
+    "source": "MorseRunner.rar"
   },
   {
     "file": "original.scp",
     "sha256": "5443f210dfd331b0f7bf1dfbea9a91bfee7d1ba537100b045818544cf5383ada",
     "records": 59942,
-    "source": "User attachment MorseRunner.rar"
+    "source": "MorseRunner.rar"
   }
 ]

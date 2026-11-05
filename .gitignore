@@ -19,3 +19,5 @@ keystore-password*.txt
 .env.*
 private-signing/
 signing-backup/
+
+docs/build-logs/

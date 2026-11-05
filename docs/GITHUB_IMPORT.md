@@ -1,9 +1,0 @@
-# GitHub 源码导入
-
-导入基于已交付的 0.1.9 源码包；保留 MPL-2.0 许可、上游源码／图标来源和呼号库字节。此导入未修改运行代码，也未重新声明真机验收完成。
-
-仓库包括源码、必要资源、测试、构建脚本、工作流及既有验证记录。构建缓存、APK、源码压缩包、签名私钥、密钥库和密码不纳入 Git。`docs/signing/asterdale-morserunner-release.pem` 是可公开的证书，不包含私钥。
-
-既有工作流会生成 debug 测试包；它与本项目现有发布签名不同。发布构建步骤及密钥要求见 `SIGNING.md`。本次不向 GitHub Actions 上传任何发布签名凭据。
-
-首次 GitHub 构建发现 setup-android 默认安装已从 SDK 仓库移除的 `tools` 包，已将该 action 的 packages 明确设为 `platform-tools`；固定版本的 SDK／NDK／CMake 仍由下一步按原配置安装。应用运行代码不变。
